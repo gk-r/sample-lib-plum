@@ -20,11 +20,11 @@ require __DIR__ . '/../vendor/autoload.php';
 		<script src="common/scripts/common.js"></script>
 		<link href="common/styles/common.css" rel="stylesheet">
 
-		<link rel="stylesheet" href="res/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="res/styles/common.css">
+		<link rel="stylesheet" href="./../res/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./../res/styles/common.css">
 
-		<script src="res/bootstrap/js/bootstrap.min.js"></script>
-		<script src="res/scripts/common.js"></script>
+		<script src="./../res/bootstrap/js/bootstrap.min.js"></script>
+		<script src="./../res/scripts/common.js"></script>
 
 	</head>
 	<body>
@@ -59,22 +59,22 @@ $plum = new hk\plum\main(
                'preview_server' => array(
                        array(
                                'name' => 'preview1',
-                               'path' => './repos/preview1/',
+                               'path' => './../repos/preview1/',
                                'url' => 'http://preview1.localhost/'
                        ),
                        array(
                                'name' => 'preview2',
-                               'path' => './repos/preview2/',
+                               'path' => './../repos/preview2/',
                                'url' => 'http://preview2.localhost/'
                        ),
                        array(
                                'name' => 'preview3',
-                               'path' => './repos/preview3/',
+                               'path' => './../repos/preview3/',
                                'url' => 'http://preview3.localhost/'
                        )
                ),
                'git' => array(
-                       'repository' => './repos/master/',
+                       'repository' => './../repos/master/',
                        'protocol' => 'https',
                        'host' => 'github.com',
                        'url' => 'github.com/gushikawa/indigo-test-project.git',
