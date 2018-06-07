@@ -1,0 +1,39 @@
+{
+    "name": "gushikawa/sample-lib-plum",
+    "description": "",
+    "keywords": ["pickles2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Natsuki Gushikawa",
+            "email": "gushikawa-natsuki@imjp.co.jp"
+        }
+    ],
+    "scripts":{
+        "test": [
+
+        ]
+    } ,
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/tomk79/px2-auth.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "pickles2/lib-plum": "dev-release-1.0.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "files": [
+        ]
+    },
+    "extra": {
+        "px2package": {
+            "name": "sample-lib-plum",
+            "type": "project"
+        }
+    }
+}
