@@ -77,7 +77,7 @@ $plum = new hk\plum\main(
                        'repository' => './../repos/master/',
                        'protocol' => 'https',
                        'host' => 'github.com',
-                       'url' => 'github.com/gushikawa/indigo-test-project.git',
+                       'url' => 'github.com/hk-r/px2-sample-project.git',
                        'username' => 'hoge',
                        'password' => 'fuga'
                )
