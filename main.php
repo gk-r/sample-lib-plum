@@ -59,22 +59,22 @@ $plum = new hk\plum\main(
                'preview_server' => array(
                        array(
                                'name' => 'preview1',
-                               'path' => './../repos/preview1/',
+                               'path' => './repos/preview1/',
                                'url' => 'http://preview1.localhost/'
                        ),
                        array(
                                'name' => 'preview2',
-                               'path' => './../repos/preview2/',
+                               'path' => './repos/preview2/',
                                'url' => 'http://preview2.localhost/'
                        ),
                        array(
                                'name' => 'preview3',
-                               'path' => './../repos/preview3/',
+                               'path' => './repos/preview3/',
                                'url' => 'http://preview3.localhost/'
                        )
                ),
                'git' => array(
-                       'repository' => './../repos/master/',
+                       'repository' => './repos/master/',
                        'protocol' => 'https',
                        'host' => 'github.com',
                        'url' => 'github.com/gushikawa/indigo-test-project.git',
